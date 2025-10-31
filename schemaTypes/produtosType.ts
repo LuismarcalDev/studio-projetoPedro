@@ -5,6 +5,12 @@ export const produtosType = defineType({
   title: 'Produtos',
   type: 'document',
   fields: [
+
+     defineField({
+      name: 'id',
+      type: 'number',
+      
+    }),
     defineField({
       name: 'nome',
       type: 'string',
